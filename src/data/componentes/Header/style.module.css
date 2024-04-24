@@ -1,0 +1,46 @@
+header {
+    position: fixed;
+    top: 0;
+
+    background-color: var(--Black);
+    width: 54%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoBox {
+    display: flex;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu label {
+    color: var(--White);
+    font-weight: var(--fontW1);
+    font-size: 14px;
+
+    padding: 0 1.7vw;
+}
+
+@media (max-width: 768px) {
+    header {
+        width: 100vw;
+    }
+    nav {
+      flex-direction: column;
+      align-items: center;
+  
+      gap: 16px;
+    }
+  }

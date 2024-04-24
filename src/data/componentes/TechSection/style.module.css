@@ -1,0 +1,36 @@
+.SectionTech {
+    display: flex;
+    flex-direction: column;
+
+    gap: 22px;
+    color: var(--White);
+}
+
+.SectionTech h1 {
+    font-size: 40px;
+    font-weight: var(--fontW0);
+}
+
+.TechList {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid var(--HalfWhite);
+    border-radius: 25px;
+
+    width: 30%;
+    height: 86px;
+}
+
+.TechList div {
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+    margin: 20px 20px;
+}
+
+.TechList div span {
+    font-size: 22px;
+    font-weight: var(--fontW0);
+}

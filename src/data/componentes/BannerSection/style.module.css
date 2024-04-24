@@ -1,0 +1,48 @@
+.SectionBanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserBanner {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    width: 320px;
+    height: fit-content;
+}
+
+.UserBanner label {
+    color: var(--Color-primary);
+    font-weight: var(--fontW2);
+    font-size: 14px;
+}
+
+.UserBanner h1 {
+    font-size: 48px;
+    font-weight: var(--fontW0);
+    color: var(--White);
+}
+
+.UserBanner p {
+    font-size: 16px;
+    font-weight: var(--fontW2);
+    color: var(--White);
+}
+
+.UserBanner button {
+    width: fit-content;
+}
+
+.SectionBanner div img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .SectionBanner {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 42px;
+    }
+  }

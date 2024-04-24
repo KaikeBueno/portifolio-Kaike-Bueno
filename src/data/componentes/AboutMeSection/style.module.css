@@ -1,0 +1,25 @@
+.SectionAbout {
+    display: flex;
+
+    color: var(--White);
+}
+
+.SectionAbout h1 {
+    font-size: 40px;
+    font-weight: var(--fontW0);
+
+    width: 150%;
+}
+
+.SectionAbout p {
+    font-size: 16px;
+    font-weight: var(--fontW2);
+}
+
+@media (max-width: 768px) {
+    .SectionAbout {
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+    }
+  }
